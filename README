@@ -12,7 +12,7 @@ OpenGL things on the system main thread.
 
 
 Requirements:
-   libx11
+   libx11-dev
    Cython
 
 
