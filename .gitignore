@@ -1,0 +1,4 @@
+glxcontext.c
+*.pyc
+*~
+build
