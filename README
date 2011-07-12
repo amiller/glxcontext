@@ -5,7 +5,10 @@ If you need an OpenGL context for offscreen rendering, and don't
 want to create a Wx or GTK window, this is the easiest way to do it.
 
 Even on a headless machine (like a virtualbox), you can install
-xvfb-run and use it with this package
+xvfb-run and use it with this package.
+
+Normal cautions about OpenGL still apply, play it safe and do your
+OpenGL things on the system main thread.
 
 
 Requirements:
